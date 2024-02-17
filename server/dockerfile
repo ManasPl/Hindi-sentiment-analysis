@@ -1,0 +1,8 @@
+FROM python:3.9-slim
+COPY ./api/main.py /deploy/
+COPY ./requirements.txt /deploy/
+COPY ./hindi_model_bert_8Sept.pt /deploy/
+WORKDIR /deploy/
+RUN pip install -r requirements.txt
+EXPOSE 80
+ENTRYPOINT ["python", "main.py"]
