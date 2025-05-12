@@ -9,14 +9,16 @@ The primary goal of this project is to showcase the capability of the DistilBERT
 ## UI
 
 ### Mobile View (Portrait)
-![Mobile View](https://github.com/user-attachments/assets/280bf072-d570-494a-b63f-88808f3e4a49)
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/280bf072-d570-494a-b63f-88808f3e4a49" alt="Mobile View" width="200"/>
+</div>
 
 ### Desktop View (Landscape)
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/afd50904-52ea-4d8f-beee-69ececd63ce1" alt="Desktop View" width="600"/>
-  &nbsp; &nbsp; &nbsp;
-  <img src="https://github.com/user-attachments/assets/6d57560c-e04b-483f-a52a-bdcf39dde4fd" alt="Desktop View" width="600"/>
+  <img src="https://github.com/user-attachments/assets/afd50904-52ea-4d8f-beee-69ececd63ce1" alt="Desktop View" width="300"/>
+  <img src="https://github.com/user-attachments/assets/6d57560c-e04b-483f-a52a-bdcf39dde4fd" alt="Desktop View" width="300"/>
 </div>
+
 
 ## DistilBERT Model
 
