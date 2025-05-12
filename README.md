@@ -6,6 +6,18 @@ This repository contains the code and resources for the sentiment analysis proje
 
 The primary goal of this project is to showcase the capability of the DistilBERT model in accurately identifying sentiments in Hindi text. The study emphasizes the significance of sentiment analysis in various domains, particularly in e-commerce and social media, where understanding user sentiments is crucial for business insights and content moderation.
 
+## UI
+
+### Mobile View (Portrait)
+![Mobile View](https://github.com/user-attachments/assets/280bf072-d570-494a-b63f-88808f3e4a49)
+
+### Desktop View (Landscape)
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/afd50904-52ea-4d8f-beee-69ececd63ce1" alt="Desktop View" width="600"/>
+  &nbsp; &nbsp; &nbsp;
+  <img src="https://github.com/user-attachments/assets/6d57560c-e04b-483f-a52a-bdcf39dde4fd" alt="Desktop View" width="600"/>
+</div>
+
 ## DistilBERT Model
 
 DistilBERT is a computationally efficient version of BERT, a widely-used transformer-based model for natural language processing tasks. It has been pre-trained on extensive data, enabling it to capture bidirectional contextual information, which is particularly important for understanding the nuances of Hindi language structures.
