@@ -2,6 +2,10 @@
 
 This repository contains the code and resources for the sentiment analysis project focusing on Hindi text using the DistilBERT model.
 
+**Live demo:** https://manaspl.github.io/Hindi-sentiment-analysis/
+
+The model runs entirely in your browser (ONNX + [transformers.js](https://github.com/huggingface/transformers.js)) — there's no backend server. `train.py` fine-tunes `distilbert-base-multilingual-cased` on the HASOC Hindi dataset, `prune_vocab.py` trims the multilingual vocabulary down to just Devanagari + ASCII tokens (119k → 57k, with <0.1% OOV on the training data) to shrink the model to a browser-friendly size, and `export_onnx.py` exports + int8-quantizes it into [`client/public/models`](client/public/models). The original FastAPI server under `server/` still works if you'd rather run it locally.
+
 ## Objective
 
 The primary goal of this project is to showcase the capability of the DistilBERT model in accurately identifying sentiments in Hindi text. The study emphasizes the significance of sentiment analysis in various domains, particularly in e-commerce and social media, where understanding user sentiments is crucial for business insights and content moderation.

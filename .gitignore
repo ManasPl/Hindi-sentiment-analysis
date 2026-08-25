@@ -1,2 +1,14 @@
 node_modules/
 **/*.pt
+client/dist/
+.venv/
+train_log.txt
+__pycache__/
+web_model/
+/model.onnx
+/model.quant.onnx
+/model_pruned.onnx
+/model_pruned.quant.onnx
+/tokenizer/
+/tokenizer_pruned/
+/tokenizer_pruned_vocab.txt

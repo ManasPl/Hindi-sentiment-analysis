@@ -10,8 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@huggingface/transformers": "^4.2.0",
     "@nextui-org/react": "^2.2.9",
-    "axios": "^1.6.2",
     "clsx": "^2.0.0",
     "framer-motion": "^10.16.7",
     "lucide-react": "^0.294.0",

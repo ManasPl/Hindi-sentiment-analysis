@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import PredictionCard from "./components/PredictionCard";
 import { Send } from "lucide-react";
-import axios from "axios";
+import { predict } from "./inference";
 
 function App() {
   const [isOnboarding, setIsOnboarding] = useState(true);
@@ -38,15 +38,10 @@ function App() {
     // setPredictions([newPrediction, ...predictions])
     setPredictions([...predictions, newPrediction]);
     setInputStatement("");
-    const res = await axios.post("http://localhost:8000/predict", {
-      Sentence: inputStatement.toString(),
-    });
-    const data = res.data;
-    console.log(data);
-    newPrediction.prediction = data.value;
+    const value = await predict(statement);
+    newPrediction.prediction = value;
     newPrediction.isLoading = false;
     setPredictions([newPrediction, ...predictions]);
-    console.log(predictions);
   };
 
   return (
